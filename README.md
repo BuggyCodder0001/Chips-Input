@@ -1,9 +1,12 @@
-# Chips-Input
-The Chips Input Component is a reusable React component that allows users to input multiple tags or keywords. Each entered tag is displayed as a "chip" (small label) that can be dynamically added or removed.
-✨ Features
+# React + Vite
 
-* Add tags/keywords easily by typing and pressing Enter.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-* Display tags as interactive chips.
+Currently, two official plugins are available:
 
-* Remove tags with a single click.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
